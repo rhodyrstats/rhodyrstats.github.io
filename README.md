@@ -1,5 +1,10 @@
-Mozilla Study Groups
-============
+# rhodyrstats.github.io
+Main website for rhodyrstats
+
+Modelled after Mozilla Study Groups 
+
+##Mozilla Study Groups
+
 
 Welcome to [Mozilla Science Lab](http://www.mozillascience.org/)'s Study Group project! From here, we'll set you up with everything you need to start your own study group.
 
@@ -91,3 +96,4 @@ Now that you're all set up, GitHub provides several ways to stay in touch with t
  
   That's it! Share the URL with your participants and you can chat live with them as they join the room.
   - **Use the Mozilla Science Forum** to chat with study groups worldwide. Find the [forum here](http://forum.mozillascience.org/category/events/study-groups); use this to share your stories, ask questions to the wider community, and find out who's out there.
+
