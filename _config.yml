@@ -5,7 +5,7 @@
 user: rhodyrstats
 
 #Step 2: give your study group a name and a short description:
-title: Southern Rhode Island R Study Group
+title: Rhody R Stats
 description: "The Rhode Island R Study Group is open to all that have an interest 
 in working together to learn R, data management skills, and data science.  While
 this is primarily for URI students, any and all are welcome."
@@ -22,8 +22,8 @@ this is primarily for URI students, any and all are welcome."
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome To Rhody R Stats"
-headlineMain: "The Southern Rhode Island R Study Group"
+headlineSmall: "The Southern Rhode Island R Study Group"
+headlineMain: "Welcome To Rhody R Stats"
 
 
 #========================================
