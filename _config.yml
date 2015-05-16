@@ -2,11 +2,13 @@
 #Follow these 3 steps to set up your site.
 
 #Step 1: change mozillascience to the user name you chose on GitHub:
-user: mozillascience
+user: rhodyrstats
 
 #Step 2: give your study group a name and a short description:
-title: Our Study Group
-description: "A study group."
+title: Rhode Island R Study Group
+description: "The Rhode Island R Study Group is open to all that have an interest 
+in working together to learn R, data management skills, and data science.  While
+this is primarily for URI students, any and all are welcome."
 
 #Step 3: press the green 'Commit Changes' button at the bottom of this page.
 
@@ -20,8 +22,8 @@ description: "A study group."
 # None of these things need to be changed - but feel free!
 
 titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome To Our Study Group!"
-headlineMain: "Let's Work Together"
+headlineSmall: "Welcome To Rhody R Stats"
+headlineMain: ""
 
 
 #========================================
