@@ -31,10 +31,15 @@ headlineMain: "Welcome To Rhody R Stats"
 # No touching anything below this line :)
 #========================================
 # Color settings (hex-codes without the leading hash-tag)
+#color:
+#  primary: fed136
+#  secondary: fec503
+#  secondary-dark: 333
 color:
-  primary: fed136
-  secondary: fec503
-  secondary-dark: 333
+   primary: D5D693
+   secondary: 198C7E
+   secondary-dark: 333
+
 
 # Build settings
 markdown: kramdown
