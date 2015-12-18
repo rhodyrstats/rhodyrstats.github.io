@@ -2,9 +2,12 @@
 title: Rhody R Stats Kickoff Workshops
 text: We are hosting 2 1-day R workshops at URI to kick-off things for the Rhody R Stats study group.
 link: https://github.com/rhodyrstats/rhodyrstats.github.io/issues/4
+eventlink: http://rhodyrstats.org/intro_r_workshop
+location: "URI Coastal Institute, Narragansett, RI"
 date: 2016-01-12 
 ---
 
+<!-- this text is not currently renederd anywhere.  YAML is all you need --> 
 As Rhody R Stats is a new study group and we have yet to have a meeting, we've decided that a one day workshop would be a great way to kick things off and build a bit of momentum for the study group. During these workshops we will cover:
 
 - R, RStudio, and Git installs
