@@ -23,7 +23,7 @@
                     <a class='eventTitle' href="{{ post.link }}">{{ post.title }}, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}</a>
                     <div class='eventSub'>{{ post.text }}</div>
                     {% if post.eventlink %}
-                    <div class='eventSub'><a style="text-decoration: underline; color: #{{site.color.primary}}" href="{{ post.eventlink }}">Event Website</a></div>
+                    <div class='eventSub'><a href="{{ post.eventlink }}">Event Website</a></div>
                     {% endif %}  
                   </li>
                 {% endif %}
