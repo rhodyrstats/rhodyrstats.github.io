@@ -5,10 +5,10 @@
 user: rhodyrstats
 
 #Step 2: give your study group a name and a short description:
-title: Rhody R Stats
+title: "Rhody R Stats: R and Data Science in Rhode Island"
 description: "The Rhode Island R Study Group is open to all that have an interest 
-in working together to learn R, data management skills, and data science.  While
-this is primarily for URI students, any and all are welcome."
+in working together to learn the R statistical language, data management skills, 
+and data science."
 
 #Step 3: press the green 'Commit Changes' button at the bottom of this page.
 
