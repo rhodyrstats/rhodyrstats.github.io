@@ -5,6 +5,7 @@ link: https://github.com/rhodyrstats/rhodyrstats.github.io/issues/4
 eventlink: http://rhodyrstats.org/intro_r_workshop
 location: "URI Coastal Institute, Narragansett, RI"
 date: 2016-01-12 
+publish: no
 ---
 
 <!-- this text is not currently renederd anywhere.  YAML is all you need --> 
