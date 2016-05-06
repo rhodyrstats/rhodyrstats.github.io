@@ -5,10 +5,10 @@
 user: rhodyrstats
 
 #Step 2: give your study group a name and a short description:
-title: Rhody R Stats
+title: "rhodyRstats: R and Data Science in Rhode Island"
 description: "The Rhode Island R Study Group is open to all that have an interest 
-in working together to learn R, data management skills, and data science.  While
-this is primarily for URI students, any and all are welcome."
+in working together to learn the R (#rstats) statistical language, data 
+management skills, and data science."
 
 #Step 3: press the green 'Commit Changes' button at the bottom of this page.
 
@@ -23,9 +23,9 @@ this is primarily for URI students, any and all are welcome."
 
 #titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
 titleBackground: "http://www.asergeev.com/pictures/archives/2004/426/jpeg/24.jpg"
-headlineSmall: "The Rhode Island R and Data Science Study Group"
-headlineMain: "Rhody R Stats"
-
+headlineSmall: "A Data Science and R Study Group for Rhode Island"
+headlineMain: "rhodyRstats"
+future: true
 
 #========================================
 # No touching anything below this line :)
