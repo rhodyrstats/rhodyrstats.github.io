@@ -5,5 +5,5 @@ link: https://github.com/rhodyrstats/rhodyrstats.github.io/issues/20
 eventlink: 
 location: "URI, Kingston, RI, CBLS Room 435"
 date: 2016-07-07
-publish: yes
+publish: no
 ---

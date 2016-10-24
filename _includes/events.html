@@ -11,15 +11,8 @@
               <ul class='events'>
               {% assign isEvent = 0 %}
               {% for post in site.posts reversed %}
-                {% if post.publish %}
-                  {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-                  {% capture postyear %}{{post.date | date: '%Y'}}{% endcapture %}
-                  {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
-                  {% capture postday %}{{post.date | date: '%j'}}{% endcapture %}
-                  {% assign postday = postday | plus: 0 %}
-                  {% assign nowday = nowday | minus: 2 %}
-                  {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
-                    {% assign isEvent = 1 %}
+                {% if post.publish %} 
+                  {% assign isEvent = 1 %}
                     <li>
                       <a class='eventTitle' href="{{ post.link }}">{{ post.title }}, {{ post.location }}, {{ post.date | date: "%-d %B %Y"}}</a>
                       <div class='eventSub'>{{ post.text }}</div>
@@ -27,7 +20,6 @@
                       <div class='eventSub'><a href="{{ post.eventlink }}">Event Website</a></div>
                       {% endif %}  
                     </li>
-                  {% endif %}
                 {% endif %}
               {% endfor %}
               

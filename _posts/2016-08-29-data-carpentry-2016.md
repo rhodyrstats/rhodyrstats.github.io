@@ -5,5 +5,5 @@ link:
 eventlink: http://rhodyrstats.org/2016-08-29-uri/
 location: "URI Bay Campus, Coastal Institute Building, Hazard A & B, 215 South Ferry Road, Narragansett, RI"
 date: 2016-08-29, 2016-08-30, 8:00-04:00 pm
-publish: yes
+publish: no
 ---
