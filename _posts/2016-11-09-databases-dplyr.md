@@ -5,5 +5,5 @@ link: https://www.youtube.com/watch?v=vtys91B6U0I
 eventlink: 
 location: "URI,CBLS Building Room 252, Kingston, RI"
 date: 2016-11-09 
-publish: yes
+publish: no
 ---

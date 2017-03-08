@@ -5,5 +5,5 @@ link:
 eventlink: 
 location: "URI,CBLS Building Room 252, Kingston, RI"
 date: 2016-11-30 
-publish: yes
+publish: no
 ---

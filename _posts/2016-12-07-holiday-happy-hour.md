@@ -5,5 +5,5 @@ link:
 eventlink: 
 location: "TBD"
 date: 2016-12-07 
-publish: yes
+publish: no
 ---
