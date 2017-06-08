@@ -29,3 +29,9 @@ explain(surveys %>%
 # FROM surveys 
 # ORDER BY year;
 
+surveys_syw <- surveys %>%
+  select(species_id, year, weight) %>%
+  arrange(desc(year))
+
+tbl1 <- data.frame(id = c(1,2,3,4), number = c(37,28,65,2))
+tbl2 <- data.frame(id = c(3,4,5,6), letters = c("a","r","q","j"))
