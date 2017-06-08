@@ -56,5 +56,10 @@ rodent_count <- inner_join(surveys,species, by = "species_id") %>%
 rodent_count
   
   
+# Create a new sqlite database from some dataframes
+surveys_csv <- read.csv("surveys.csv")
+species_csv <- read.csv("species.csv")
+
+new_portal_db <- src_sqlite("dplyr_sqlite_portal.sqlite", create = T)
 
 
