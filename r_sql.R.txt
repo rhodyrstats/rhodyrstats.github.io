@@ -42,3 +42,9 @@ surveys_pl1 <- left_join(surveys, plots, by = "plot_id") %>%
   filter(plot_id == 1) %>%
   select(month, day, year, species_id, plot_type) %>%
   collect()
+surveys_pl1
+
+## Challenge
+# Use dplyr and query our database to return the number of rodents 
+# observed in each plot in each year.
+
