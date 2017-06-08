@@ -3,5 +3,29 @@ install.packages("RSQLite")
 library(dplyr)
 library(RSQLite)
 
+# Make connection to the datbase
+mammals <- src_sqlite("portal_mammals.sqlite")
 
+tbl(mammals, sql("SELECT year, species_id FROM surveys")) %>%
+  collect()
+
+surveys <- tbl(mammals, "surveys")
+
+## Challenge:
+# Pull the other two tables into R.  Name them plots and species
+
+plots <- tbl(mammals,"plots")
+species <- tbl(mammals, "species")
+
+yr_species <- surveys %>%
+  select(year, species_id)
+
+# What is happening behind the curtain
+explain(surveys %>%
+          select(year, species_id))
+
+## Challenge
+# SELECT species_id, year, weight 
+# FROM surveys 
+# ORDER BY year;
 
