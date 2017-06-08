@@ -51,7 +51,8 @@ surveys_pl1
 rodent_count <- inner_join(surveys,species, by = "species_id") %>%
   filter(taxa == "Rodent") %>%
   group_by(plot_id, year) %>%
-  summarize(num_rodents = n())
+  summarize(num_rodents = n()) %>%
+  arrange(desc(num_rodents))
 rodent_count
   
   
