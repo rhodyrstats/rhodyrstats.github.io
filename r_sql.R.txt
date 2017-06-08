@@ -49,10 +49,10 @@ surveys_pl1
 # observed in each plot in each year.
 # Plot Id, Year, Count of Rodents
 rodent_count <- inner_join(surveys,species, by = "species_id") %>%
-  filter() %>%
-  group_by() %>%
+  filter(taxa == "Rodent") %>%
+  group_by(plot_id, year) %>%
   summarize(num_rodents = n())
-
+rodent_count
   
   
 
