@@ -40,4 +40,5 @@ tbl2 <- data.frame(id = c(3,4,5,6), letters = c("a","r","q","j"))
 #Join plots to surveys
 surveys_pl1 <- left_join(surveys, plots, by = "plot_id") %>%
   filter(plot_id == 1) %>%
+  select(month, day, year, species_id, plot_type) %>%
   collect()
