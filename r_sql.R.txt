@@ -62,6 +62,6 @@ species_csv <- read.csv("species.csv")
 
 new_portal_db <- src_sqlite("dplyr_sqlite_portal.sqlite", 
                             create = TRUE)
-
+copy_to(new_portal_db, surveys_csv, temporary = FALSE)
 
 
