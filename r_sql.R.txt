@@ -47,4 +47,13 @@ surveys_pl1
 ## Challenge
 # Use dplyr and query our database to return the number of rodents 
 # observed in each plot in each year.
+# Plot Id, Year, Count of Rodents
+rodent_count <- inner_join(surveys,species, by = "species_id") %>%
+  filter() %>%
+  group_by() %>%
+  summarize(num_rodents = n())
+
+  
+  
+
 
