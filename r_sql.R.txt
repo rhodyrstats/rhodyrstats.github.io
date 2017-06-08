@@ -1,2 +1,7 @@
+# If no RSQLite
+install.packages("RSQLite")
 library(dplyr)
 library(RSQLite)
+
+
+
